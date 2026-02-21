@@ -10,6 +10,7 @@ export async function sendMessage(
   message: string,
   sessionId: string
 ): Promise<ChatApiResponse> {
+  console.log(API_BASE);
   const response = await fetch(`${API_BASE}/api/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
