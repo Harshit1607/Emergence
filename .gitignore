@@ -1,0 +1,29 @@
+# Environment variables (never commit these)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.db
+*.sqlite
+
+# Node
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+server/.env
+client/.env.local
